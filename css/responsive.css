@@ -1,0 +1,491 @@
+@media only screen and (max-width: 768px){
+		hr{
+			display: none;
+			}
+
+
+		.icon-bar {
+		display: inline;
+			}
+
+
+		header{display: none;}			
+		.headernew{
+			position: fixed;
+		    color: #fff;
+		    z-index: 100;
+		    background-color: rgb(33 24 13 / 40%);
+		    width: 100%;
+		    height: 50px;
+			display: block;
+			}
+			.logo2{display: inline-block;
+				margin-top: 8px;
+				animation: none;}
+			.menu_icon{
+				display: inline-block;
+				cursor: pointer;
+				float: right;
+				padding: 0px 20px;
+				margin-top: 6px;
+				border-bottom-left-radius:  20px;
+				border-top-left-radius:  20px;
+				background-color: #000;
+				}
+				.bar1, .bar2, .bar3 {
+			      width: 30px;
+			      height: 4px;
+			      border: none;
+			      border-radius: 2px;
+			      background-color: #fff;
+			      margin: 6px 0;
+			      transition: 0.4s;
+			    }
+			.sidenav {
+				height: 100%;
+				width: 0;
+				position: fixed;
+				z-index: 1;
+				transition: background-color .5s;
+				top: 0;
+				text-align: center;
+				left: 0;
+				background-color: rgba(17,17,17,1);
+				overflow-x: hidden;
+				transition: 0.5s;
+				padding-top: 0px;
+				}
+
+				.sidenav a {
+				  padding: 8px 0px;
+				  text-decoration: none;
+				  font-size: 1.5625em;
+				  color: #818181;
+				  display: block;
+				  transition: 0.3s;
+				}
+
+				.sidenav a:hover {
+				  color: #f1f1f1;
+				}
+
+				.sidenav .closebtn {
+					position: relative;
+					top: -10px;
+					text-align: right;
+					margin-right: 22px;
+					right: 0px;
+					font-size: 3.125em;
+					margin-left: 0px;
+				}
+				@media screen and (max-height: 450px) {
+				  .sidenav {padding-top: 0px;}
+				  .sidenav a {font-size: 1.125em;}
+					}
+
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+		.particles-js{
+			height: 400px;
+			width: 100%;
+			opacity: 0.8;
+			overflow:visible;
+			}
+			.intro{
+			    padding-top: 150px;
+				}
+				.mainheading{
+				    font-weight: 600;
+				    font-size: 2.5em; 
+					}
+				.description{
+					font-size: 0.9375em;
+					margin-top: 10px;
+					padding-left: 5px;
+					font-family: 'Open Sans', sans-serif;
+					/*margin-bottom: 10px;*/
+					margin-inline-start: 0px;
+					margin-inline-end: 0px;
+					}
+
+			.icons1{
+				display: none;
+				}
+
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+		.about{
+			margin: 0;
+			padding: 0;
+			height: 950px;
+			min-height: 100vh; 
+			box-shadow: none;
+			width: 100%;
+			z-index: 0;
+			}
+			.about1{
+			    margin-block-start: 0px;
+			    padding-top: 10px;
+			    width: 100%;
+			    text-align: center;
+					}
+				.about1a1{
+					font-size: 2.5em;
+				    line-height: 30px;
+				    padding-top: 20px;
+				    padding-bottom: 20px;
+					}
+				.about1a2{
+				    font-size: 0.875em; 
+				    margin-bottom: 6px;
+					}
+
+
+			.about1b{
+				display: block;
+				width: 100%;
+				margin-top: 10px;
+				}
+				.about1b1{
+					height: 500px;
+					width: 100%;
+					margin: 0;
+					padding: 0;
+					display: block;
+					background-color: #fff;
+					align-items: center;
+					}
+					.about-img2{
+						width: 100%;
+						height: 400px;
+						display: block;
+						text-align: center;
+				    	justify-content: center;
+						padding-top: 20px;
+						}
+					.about-img{
+						display: none;
+						}
+						.about-img2 img{
+							position: relative;
+							width: 300px;
+							height: 400px;
+							}
+
+				.about1b2{
+				    width: 100%;
+				    display: block;
+					background-color: #fff;
+					margin: 0;
+					padding-bottom: 50px;
+					}
+					.about1b2 p{
+						text-align: center;
+				    	font-size: 1.5625em;
+				    	margin-top: 0px;	
+						}
+					article{
+					    font-size: 1.0625em;
+					    text-align: left;
+					    padding: 30px 20px;
+					    padding-left: 55px;
+						}
+
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+		.hidden_div{
+			display: none;
+			}
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+		.skill_bar_section{
+				height: auto;  
+				background: #f1f1f1;
+				width: 100%;
+				}
+
+				.skills_head{
+					text-align: center;
+					margin-block-start: 40px;
+					font-size: 2.5em;
+					font-weight: bold;
+					}
+
+			   .skills{
+				    align-items: center;
+				    display: inline-table;
+				    width: 100%;
+				    margin:10px 50px;
+				    padding:0px 10px;
+				    max-width: 800px;
+			   		}
+			   		.skill{
+			   			width: 80%;
+			   			}
+
+					    .skill-name{
+							font-size: 1em;
+							font-weight: 350;
+							text-transform: uppercase;
+							margin: 20px 0;
+							}
+
+					    .skill-bar{
+							height: 16px;
+							background: #cacaca;
+							border-radius: 8px;
+							}
+
+					    .skill-per{
+							height: 16px;
+							background-color: #0fbcf9;
+							border-radius: 8px;
+							width: 0;
+							transition: 1s linear;
+							position: relative;
+							}
+
+					    .skill-per::before{
+							content: attr(per);
+							position: absolute;
+							padding: 4px 6px;
+							background-color: #000;
+							color: #fff;
+							font-size: 0.75em;
+							border-radius: 4px;
+							top: -30px;
+							right: 0;
+							transform: translateX(50%);
+							}
+
+					    .skill-per::after{
+							content: '';
+							position: absolute;
+							width: 10px;
+							height: 10px;
+							background-color: #000;
+							top: -12px;
+							right: 0;
+							transform: translateX(50%) rotate(45deg);
+							border-radius: 2px;
+							}
+
+
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+		.portfolio{	
+			display: block;
+			min-height: all;
+			width: 100%;
+			background: #fff;
+			height: 1200px;
+			}
+			.portfolio-div{
+				width: 80%;
+    			margin: 0 10%;
+				}
+
+				.portfolio-div p{
+					padding: 20px 0px;
+					}
+
+
+					.portfolio-h1{
+						margin-block-start: 0px;
+						font-size: 2.5em;
+						font-weight: bold;
+						}
+
+
+					.portfolio-h2{
+						font-size: 1em;
+						margin-block-start: 0px;
+					    margin-block-end: 0px;
+						}
+
+
+					.descr{
+						display: block;
+					    text-align: -webkit-center;
+					    width: 100%;
+						margin-top: 50px;
+						}
+						.descr hr{
+							width: 150px;
+							display: none;
+							}
+
+						.login{
+							background: url(file:///E:/portfolio/resources/pics/Fresh%20And%20Simple%20Mobile%20Phone%20App%20Login%20Page.jpg);
+							box-shadow: none;
+							background-size: cover;
+							background-position: center;
+							background-repeat: no-repeat;
+							width:  350px;
+							height: 400px;
+							/*margin: 5px;*/
+							}					
+							.ldisp{
+								display: none;
+								background-color: rgba(0,0,0, 0.8);
+								height: 100%;
+								color: #fff;
+								animation:animates 1s linear;
+								}
+								@keyframes animates{
+									0%{
+										width: 0%;
+									}
+									100%{
+										width: 100%;}
+									}
+							.mainh{
+								font-size: 1.25em;
+								font-weight: bold;
+								padding-left: 30px;
+								padding-top: 130px;
+								animation:example 1s linear;
+								}
+								@keyframes example{
+									0%{
+										width: 0%;
+										}
+									100%{
+										width: 100%;
+										}
+								}
+								.delay hr{display: inline;}
+
+							.body{
+								padding: 20px 25px;
+								font-size: 1.125em;
+								}
+
+						.registration{
+							box-shadow: none;
+							/*margin: 5px;*/
+							width:  350px;
+							height: 490px;
+							background-size: cover;
+							background-repeat: no-repeat;
+							background: url(file:///E:/portfolio/resources/pics/signup.png);
+							}
+							.Rdisp{
+								color: #fff;
+								background-color: rgba(0,0,0, 0.8);	
+								animation:example 1s linear;
+								height: 100%;
+								display: none;
+								}
+
+		/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+			.fp{
+			    display: none;
+			    }
+			.fdmain{
+				display: block;
+				padding-top: 50px;	
+
+				}
+				.fd1{
+					width: 50%;
+					padding-left: 80px;
+					display: none;
+					}
+					.email p, .icons2 p{
+						font-size: 1.25em;
+						color: #eb9317;
+						font-weight: bold;
+						}
+						.ids{
+							text-decoration: none;
+							color: #ffffff;
+							text-align:left;
+							line-height: 25px;
+							font-size: 0.875em;
+							padding-left: 30px;
+							}
+						.ids:hover,.no:hover{
+							color: #eb9317;
+							}
+
+							
+					.contno{
+						margin-top: 30px;
+						}
+						.phno{
+						color: #eb9317;
+						font-size: 1.25em;
+						font-weight: bold;
+						}
+						.no{
+						font-size: 0.875em;
+						display: inline-block;
+						padding-left: 30px;
+						padding-top: 8px;
+						}
+
+
+					.icons2{
+						margin-top: 30px;
+						text-align: left;
+						line-height: 50px;
+						}
+						.icons2 a{
+						 	line-height: 50px;
+						 	padding-right: 10px;
+							padding-left: 10px;
+							}
+						.icons2 svg{
+							background-color: #fff;
+							border-radius: 10px;
+							}
+				.fd2{
+					width: 100%;
+					padding-top: 50px;
+					}
+					.form_container{
+						line-height: 20px;
+						margin-left: 100px;
+						margin-right: 100px;
+						height: 380px;
+						}
+						.git{
+							font-size: 1.75em;
+							line-height: 30px;
+							font-weight: bold;
+							margin-bottom: 30px;
+							padding-top: 15px;
+							color: #000;
+							}
+						form{
+							text-align: center;
+						    margin-top: 20px;
+							}
+							input{
+						    	font-size: 0.875em;
+						    	padding-left: 8px; 
+								height: 25px;
+								}
+								.message{
+							    	font-size: 0.875em;
+									}
+								/*rectangle submit*/
+								.submit{
+									height: 35px;
+									padding-top: 5px;
+									font-size: 1.25em;
+									margin-top: 15px;
+									}
+
+								/*oval submit*/
+								/*.submit{
+									background: #bd0909;
+									color: #ffffff;
+									height: 45px;
+									padding-top: 8px;
+									box-shadow: 5px 6px 15px black;
+									font-size: 22px;
+									width: 160px;
+									outline: none;
+									margin-bottom: 10px;
+									margin-left: 40px;
+									border:none;
+									border-radius: 25px;
+									}*/
